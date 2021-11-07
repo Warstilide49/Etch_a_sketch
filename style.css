@@ -1,0 +1,28 @@
+*{
+  padding:0;
+  margin:0;
+}
+  
+#container{
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  }
+
+.row{
+  display:flex;
+  flex:1;
+  }
+  
+.child{
+  flex:1;
+  }
+.background{
+  display:flex;
+  flex:1;
+  background-color:green;
+  justify-content:space-around;
+  align-items:space-around;
+  gap:0;
+  padding:auto;
+  }
