@@ -1,12 +1,56 @@
-*{
-  padding:0;
-  margin:0;
+@font-face {
+  font-family: Graublau Sans Web;
+  src: url(GraublauWeb.otf) format("opentype");
 }
-  
-#container{
+
+/*
+*{
+  border:2px solid red;
+}
+*/
+body {
+  font-family: Graublau Sans Web, Lucida Grande, sans-serif;
   display:flex;
   flex-direction:column;
-  height:97vh;
+  margin:0;
+  background:#77b5d9;
+  color:#14397d;
+}
+
+.header{
+  font-size:40px;
+  font-weight:700;
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+  margin-bottom:50px;
+  
+}
+
+.content{
+  display:flex;
+  gap:120px;  
+  justify-content:center;
+}
+
+.options{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  height:150px;
+  }
+
+button{
+  background:#d7eaf3;
+  color:#14397d;
+}
+#sketchboard{
+  display:flex;
+  flex-direction:column;
+  height:70vh;
+  width:70vh;
+  box-shadow: 2px 4px 2rem rgba(0,0,0,0.8);
+  padding:0;
   }
 
 .row{
@@ -18,3 +62,12 @@
   flex:1;
   }
 
+.footer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:57px;
+  background:#4482a6;
+  margin-top:22px;
+  color:#14397d;
+  }
