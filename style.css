@@ -6,7 +6,7 @@
 #container{
   display:flex;
   flex-direction:column;
-  height:100vh;
+  height:97vh;
   }
 
 .row{
@@ -17,12 +17,4 @@
 .child{
   flex:1;
   }
-.background{
-  display:flex;
-  flex:1;
-  background-color:green;
-  justify-content:space-around;
-  align-items:space-around;
-  gap:0;
-  padding:auto;
-  }
+
